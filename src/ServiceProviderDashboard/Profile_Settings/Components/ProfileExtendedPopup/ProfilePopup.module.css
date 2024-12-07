@@ -1,0 +1,38 @@
+.ProfilePopup_Container {
+    width: 15%;
+    min-width: 14rem;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 8px 0px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ProfilePopup {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.ProfilePopup_data {
+    display: flex;
+    gap: 12px;
+    padding: 13px 20px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.09px;
+    color: #0D0D0D;
+}
+
+.logout_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.09px;
+    color: #E43232;
+}

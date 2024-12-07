@@ -1,0 +1,310 @@
+.modelBox_body {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 0.5px solid rgba(204, 204, 204, 1);
+  width: 100%;
+  height: fit-content;
+}
+
+/* .invoice_details {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 13%;
+  border-bottom: 0.5px solid rgba(204, 204, 204, 1);
+  gap: 20px;
+} */
+.details {
+  text-align: left;
+  display: flex;
+  width: 100%;
+  padding: 1.7% 3%;
+  border-bottom: 0.5px solid rgba(204, 204, 204, 1);
+  gap: 20px;
+}
+
+.modelBox_body .details:last-child {
+  border-bottom: none;
+}
+
+.details span {
+  display: flex;
+  /* padding: 0px 3%; */
+}
+
+.details .label {
+  width: 30%;
+  min-width: 7rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 22.4px;
+  color: rgba(128, 128, 128, 1);
+}
+
+.details .value {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  gap: 8px;
+  /* padding-left: 5px; */
+}
+
+.inputdata {
+  border-radius: 8px;
+  background: #e8effa;
+  display: flex;
+  height: 50px;
+  padding: 1.2%;
+  width: 100%;
+}
+
+.left_JobCardData span {
+  min-width: 6rem;
+}
+
+.JobCardData {
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  padding: 3% 3% 0px 3%;
+  border-bottom: 0.5px solid rgba(204, 204, 204, 1);
+  gap: 25px;
+}
+
+.JobCardData span {
+  display: flex;
+  padding: 0px 3%;
+  color: rgba(128, 128, 128, 1);
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 22.4px;
+}
+
+.right_JobCardData {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.right_JobCardData_first .Data {
+  color: #0d0d0d;
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  padding-bottom: 2%;
+}
+
+.right_JobCardData_first {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.line_div {
+  padding-right: 32px;
+}
+
+.line {
+  width: 223px;
+  height: 0.5px;
+  background: #ccc;
+}
+
+.upload_container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  padding: 0px 1%;
+}
+
+.invoive_file_upload_label .icon {
+  display: flex;
+  padding: 0px;
+}
+
+.file_input {
+  display: none;
+}
+
+.invoice_file_upload_label {
+  position: relative;
+  display: flex;
+  min-width: 14rem;
+  /* margin-left: 3rem; */
+  padding: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  color: #165dc9;
+  background: rgba(22, 93, 201, 0.1);
+  cursor: pointer;
+}
+
+.pdf_values span {
+  padding: 0px;
+}
+
+.first_value {
+  color: #0d0d0d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.last_value {
+  color: #808080;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* .modelBox_footer {
+  position: absolute;
+  right: 30px;
+  bottom: 22px;
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+} */
+
+@media (max-width: 992px) {
+  .main_body {
+    max-height: 90vh;
+  }
+
+  .modelBox_body {
+    /* width: 20rem; */
+    height: fit-content;
+  }
+
+  .JobCardData {
+    padding: 12px 8px 0px 8px;
+    gap: 10px;
+  }
+
+  .JobCardData span {
+    padding: 0px;
+  }
+
+  .details {
+    gap: 10px;
+  }
+  .details .value {
+    padding-left: 5px;
+  }
+  /* .details .label {
+    min-width: 5.5rem;
+  } */
+
+  .details span {
+    display: flex;
+    padding: 0px 8px;
+  }
+
+  .left_JobCardData {
+    padding-left: inherit;
+  }
+
+  .right_JobCardData {
+    margin-left: 1rem;
+  }
+
+  .right_JobCardData_first .Data {
+    padding-bottom: 0.8rem;
+  }
+
+  .line {
+    width: 130px;
+  }
+
+  .line_div {
+    padding: 0px;
+  }
+
+  .upload_container {
+    padding: 0px 8px;
+  }
+
+  .invoice_file_upload_label {
+    height: 50px;
+    min-width: 12rem;
+    margin-right: 1rem;
+    padding: 10px 8px;
+    gap: 6px;
+  }
+
+  .modelBox_footer {
+    right: 18px;
+  }
+}
+
+@media(max-width:700px) {
+  .modelBox_body {
+    /* margin: -25px 0px 30px 0px; */
+    margin: 0px;
+  }
+  .details .value {
+    margin-left: 4rem;
+  }
+  .right_JobCardData {
+    margin-left: 5rem;
+  }
+  .invoice_file_upload_label {
+    margin-left: 4rem;
+}
+  /* .modelBox_footer {
+    position: absolute;
+    width: 90%;
+    right: 18px;
+  } */
+}
+
+@media(max-width:550px) {
+  .right_JobCardData {
+    margin-left: 0.3rem;
+  }
+  .invoice_file_upload_label {
+    margin-left: -1rem;
+}
+
+  .details {
+    padding: 3% 1%;
+  }
+
+  .details .label {
+    font-size: 14px;
+  }
+
+  .details .value {
+    margin-left: 0rem;
+    font-size: 14px;
+    padding-left: 0px;
+  }
+
+  .JobCardData span {
+    font-size: 14px;
+  }
+
+  .right_JobCardData_first .Data {
+    font-size: 14px;
+  }
+}
+
+@media(max-width:400px) {
+  /* .modelBox_body {
+    width: 16rem;
+  } */
+
+  .invoice_details {
+    padding: 20px 4px;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,285 @@
+thead {
+  background-color: rgba(22, 93, 201, 0.1);
+}
+
+.main_heading {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+  color: #0d0d0d;
+}
+
+.main_heading_data {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #808080;
+  margin-bottom: 10px;
+}
+
+/* input {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  min-width: 2rem;
+} */
+/* .checkbox_data {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+} */
+.table_data {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.table_data span {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22.4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  vertical-align: top;
+  background-color: #fff;
+}
+
+td,
+th {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  padding: 16px 10px;
+  border-bottom: 1px solid rgba(173, 136, 53, 0.4);
+}
+
+.job_details {
+  padding-left: 2rem;
+}
+
+.multi_btn {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 12px;
+  min-width: 6rem;
+  width: 70%;
+  cursor: pointer;
+}
+
+/* .table_data_first {
+  border-radius: 8px;
+  width: 100%;
+}
+.table_data_second {
+  border-radius: 8px;
+  width: 100%;
+} */
+
+.order_card_detail {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  gap: 0px;
+  margin-bottom: 0.5rem;
+}
+
+.order_card_detail span {
+  width: 100%;
+  /* text-align: left; */
+}
+
+.order_card_detail span:first-child {
+  min-width: 40%;
+  width: 40%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: rgba(128, 128, 128, 1);
+}
+
+.order_card_detail span:last-child {
+  word-break: break-word;
+  min-width: 50%;
+  width: 60%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: rgba(13, 13, 13, 1);
+}
+
+.hideOnMobile,
+.hideOnMobile1,
+.Message_hideOnMobile {
+  display: none;
+}
+
+/* Reason_for_Rejected CSS Start ------ */
+.reason_for_reject {
+  display: flex;
+  align-items: flex-start;
+  width: 200px;
+  background-color: rgba(204, 204, 204, 0.2);
+  border-radius: 8px;
+  padding: 16px;
+  gap: 10px;
+}
+
+.reason_for_reject span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+
+.reason_for_reject_onMobile {
+  width: auto;
+  background-color: rgba(204, 204, 204, 0.2);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 0rem 1rem 2rem;
+}
+
+.reason_for_reject_onMobile p {
+  color: #e43232;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19.6px;
+}
+
+.reason_for_reject_onMobile span {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+
+/* Reason_for_Rejected CSS End ------ */
+
+@media (max-width: 992px) {
+  .order_card_detail {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0rem 0.5rem;
+    margin-top: 130px;
+    margin-bottom: 90px;
+  }
+
+  .order_card_detail {
+    flex-wrap: wrap;
+  }
+
+  thead {
+    display: none;
+  }
+
+  .job_details {
+    padding-left: 1rem;
+  }
+
+  .order_card_detail span:first-child {
+    min-width: 50%;
+    width: 100%;
+  }
+
+  .order_card_detail span:last-child {
+    min-width: 50%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .Message_hideOnMobile {
+    display: block;
+  }
+
+  .hideOnMobile {
+    display: block;
+    padding: 1rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .hideOnMobile1 {
+    display: block;
+    /* margin-bottom: 2rem; */
+  }
+
+  .hideOnDesktop {
+    display: none;
+  }
+
+  .order_card_detail {
+    flex-wrap: nowrap;
+    padding: 0.3rem 0rem;
+  }
+
+  thead {
+    display: none;
+  }
+
+  td,
+  th {
+    display: contents;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+    margin-bottom: 0.8rem;
+  }
+
+  tr {
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 2px rgba(29, 22, 23, 0.15);
+  }
+
+  tr td {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+
+  .order_card_detail span:first-child {
+    padding: 0rem 1rem;
+    font-size: 14px;
+  }
+
+  .order_card_detail span:last-child {
+    text-align: right;
+    min-width: 0%;
+    padding-right: 1rem;
+    font-size: 14px;
+  }
+
+  .multi_btn {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    gap: 12px;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    padding: inherit;
+    /* margin: 0rem 0.2rem 2rem; */
+  }
+
+  .table_data_first {
+    width: 50%;
+  }
+
+  .table_data_second {
+    width: 50%;
+  }
+
+  .table_data_first_Completed {
+    width: 100%;
+  }
+}

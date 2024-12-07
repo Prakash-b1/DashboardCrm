@@ -1,0 +1,166 @@
+.VerifiedOtpPopup_body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 24px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0px 0px 8px 8px;
+}
+
+.VerifiedOtpPopup_details {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  text-align: left;
+  gap: 12px;
+  border-radius: 8px;
+  border-left: 6px solid #165dc9;
+  background: #e8effa;
+}
+
+.VerifiedOtpPopup_value {
+  width: 80%;
+  color: #272727;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  letter-spacing: 0.16px;
+}
+
+.phone_no {
+  color: #0d0d0d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22.4px;
+  letter-spacing: 0.16px;
+}
+
+.Otp_input_text {
+  text-align: left;
+  color: #272727;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.Otp_input_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.otpContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.otpInput {
+  width: 22%;
+  height: 46px;
+  font-size: 1.3rem;
+  text-align: center;
+  border-radius: 8px;
+  background: #f2f2f2;
+  border: none;
+}
+
+.invalidMsg {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* .Otp_inputs {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+}
+
+.Otp_input {
+    width: 100%;
+    display: flex;
+    height: 46px;
+    padding: 12px 20px;
+    align-items: center;
+    border-radius: 8px;
+    border: 0.5px solid #CCC;
+    background: #F2F2F2;
+    outline: none;
+} */
+
+input::placeholder {
+  color: #0d0d0d;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.resend {
+  color: #808080;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+  letter-spacing: 0.18px;
+}
+
+.resend a {
+  color: #165dc9;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25.2px;
+  text-decoration: none;
+}
+
+hr.line {
+  border: 1px solid #ccc;
+  width: 100%;
+  opacity: 0.5;
+}
+
+.footer_btn {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+@media(max-width:768px) {
+  .VerifiedOtpPopup_body {
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .VerifiedOtpPopup_value {
+    font-size: 14px;
+  }
+
+  .resend {
+    font-size: 16px;
+  }
+
+  .resend a {
+    font-size: 16px;
+  }
+
+  .otpInput {
+    font-size: 14px;
+  }
+}
+
+@media(max-width:400px) {
+  .footer_btn {
+    display: flex;
+    justify-content: space-between;
+  }
+}

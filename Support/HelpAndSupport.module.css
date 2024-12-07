@@ -1,0 +1,246 @@
+.Support_Container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background-color: #ebf3ff;
+  border-bottom: 0.5px solid #cccccc;
+  padding: 45px 40px;
+  margin-top: 12vh;
+}
+
+.Support_Container > p:first-child {
+  font-size: 20px;
+  color: #0d0d0d;
+  font-weight: 600;
+  line-height: 23.87px;
+  text-align: left;
+}
+
+.Support_Container > p:nth-child(2) {
+  width: 70%;
+  font-size: 16px;
+  color: #808080;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+
+}
+
+.footer_buttons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.call {
+  min-width: 10.5rem;
+}
+
+.mail {
+  min-width: 14.5rem;
+}
+
+.footer_buttons .Support_call,
+.footer_buttons .Support_mail {
+  font-size: 16px;
+  color: #0d0d0d;
+  font-weight: 500;
+  line-height: 22.4px;
+  margin-left: 0.5rem;
+  border-bottom: 1px solid #0d0d0d;
+}
+.ticket {
+  width: fit-content;
+  padding: 45px 40px;
+}
+.ticket_container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #ffffff;
+  /* padding: 0px 40px; */
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.ticket_header {
+  width: 100%;
+  /* padding: 45px 40px 10px 40px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 30px 0px;
+}
+
+.ticket_header h2 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 23.87px;
+  color: #0d0d0d;
+}
+
+.link{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.09px;
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+.link:hover{
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
+.create_ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  background-color: #ebf3ff;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 12px 16px;
+  min-width: 10rem;
+  height: 146px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.create_ticket p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: center;
+}
+
+.ticket_card {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 24px;
+  min-width: 15rem;
+}
+
+.ticket_card h2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: left;
+  margin: 0px;
+}
+
+.ticket_card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+  color: #808080;
+}
+
+.ticket_card p span {
+  color: #1a73e8;
+}
+
+.time {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19.2px;
+  text-align: left;
+}
+
+.ticket_card_data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticket_card_data .status_active {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  color: #e47232;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.ticket_card_data .status_close {
+  display: flex;
+  gap: 4px;
+  align-items: flex-end;
+  color: #808080;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.card_Heading {
+  padding: 30px 40px 0px 40px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23.87px;
+  text-align: left;
+}
+.Articles_Data {
+  padding: 0px 0px 40px 45px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  gap: 24px;
+}
+.card_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  max-height: 11rem;
+}
+.card {
+  width: 17rem;
+  padding: 16px;
+  border: 0.5px solid #cccccc;
+  border-radius: 8px;
+}
+.card_img {
+  width: 100%;
+  border-radius: 6px;
+}
+.card_title {
+  color: #0d0d0d;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+.card_para {
+  color: #808080;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+.card_btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #1a73e8;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.09px;
+  text-align: left;
+  text-decoration: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}

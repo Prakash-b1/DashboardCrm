@@ -1,0 +1,29 @@
+.center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+}
+
+.space_between{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.center_vertical{
+        display: flex;
+        align-items: center;
+}
+
+.column{
+        display: flex;
+        flex-direction: column;
+        
+}
+
+
+.hide{
+        display: none;
+      }
+      

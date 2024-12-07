@@ -1,0 +1,172 @@
+.modelBox {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    gap: 45px;
+    height: fit-content;
+    overflow-y: scroll;
+}
+
+.modelBox_body_ScanQR {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 0.5px solid rgba(204, 204, 204, 1);
+    /* margin: 55px 0px 0px 0px; */
+    margin: 0px;
+    width: 25rem;
+    height: fit-content;
+}
+
+.modelBox_body_ScanQR .label {
+    padding-left: 24px;
+}
+
+.modelBox_body {
+    display: flex;
+    border-radius: 8px;
+    border: 0.5px solid rgba(204, 204, 204, 1);
+    /* margin: 55px 0px 0px 0px; */
+    margin: 0px;
+    width: 25rem;
+}
+
+.modelBox::-webkit-scrollbar {
+    width: 10px;
+    /* scrollbar-color: black; */
+}
+
+.modelBox::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0, 0.2);
+    /* Scrollbar thumb color */
+    border-radius: 6px;
+    /* Optional: makes the scrollbar rounded */
+}
+
+.modelBox::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Scrollbar track color */
+}
+
+.detail_ScanQR {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.detail_ScanQR span {
+    color: #0D0D0D;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.18px;
+}
+
+.Scanner_amount .label {
+    color: #808080;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.Scanner_amount .value {
+    color: #0D0D0D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.Scanner_amount {
+    display: flex;
+    gap: 20px;
+}
+
+@media(max-width:992px) {
+    .main_body {
+        max-height: 90vh;
+    }
+
+    .modelBox {
+        padding: 20px 15px;
+        padding-bottom: 20px;
+        gap: 15px;
+    }
+
+    .modelBox_body {
+        width: 20rem;
+        height: fit-content;
+    }
+
+    .modelBox_body_ScanQR {
+        width: 20rem;
+    }
+
+    .modelBox_body_ScanQR .label {
+        padding-left: 0px;
+    }
+
+    .detail_ScanQR {
+        padding: 16px;
+        gap: 10px;
+    }
+
+    .detail_ScanQR span {
+        text-align: center;
+    }
+}
+
+@media(max-width:868px) {
+    .modelBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modelBox_body_ScanQR {
+        margin: 0px;
+    }
+
+    .ScanQR_order {
+        order: -1;
+    }
+}
+
+@media(max-width:550px) {
+    .detail_ScanQR span {
+        font-size: 16px;
+    }
+
+    .Scanner_amount .label {
+        font-size: 14px;
+    }
+
+    .Scanner_amount .value {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:400px) {
+    .modelBox {
+        padding: 20px 10px;
+    }
+
+    .modelBox_body {
+        width: 16rem;
+    }
+
+    .modelBox_body_ScanQR {
+        width: 16rem;
+    }
+
+    .modelBox_body_ScanQR .label {
+        padding-left: 4px;
+    }
+}

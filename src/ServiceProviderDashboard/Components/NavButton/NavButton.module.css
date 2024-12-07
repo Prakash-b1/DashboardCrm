@@ -1,0 +1,86 @@
+.navButton_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 0.5px solid #ccc;
+  background: #fefaef;
+  display: flex;
+  width: 100%;
+  padding: 10px 40px 20px 40px;
+  position: fixed;
+  top: 12vh;
+  right: 0;
+  left: 5%;
+  z-index: 9;
+  /* margin-top: -12vh; */
+}
+
+.navButton {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  padding: 0.5% 2.5%;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  background: #fff;
+}
+
+.navButton:hover {
+  background-color: rgba(250, 224, 152, 0.1);
+  cursor: pointer;
+}
+
+.navButton1 {
+  border-radius: 8px 0px 0px 8px;
+  border: 1px solid #ccc;
+  border-right: none;
+  min-width: 6rem;
+}
+
+.navButton2 {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.navButton3 {
+  border-radius: 0px 8px 8px 0px;
+  border: 1px solid #ccc;
+}
+/* 
+@media (max-width: 768px) {
+  .navButton_container {
+    overflow-x: scroll;
+    padding: 20px 10px;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+} */
+
+@media (max-width: 768px) {
+  .navButton_container {
+    overflow-x: scroll;
+    padding: 16px;
+    top: 65px;
+    right: 0;
+    left: 0;
+    border-bottom: 0.5px solid #cccccc;
+  }
+
+  .navButton {
+    font-size: 14px;
+    /* width: 100px; */
+    height: 36px;
+    padding: 15px 20px 15px 20px;
+    gap: 10px;
+  }
+
+  .navButton1 {
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid #ccc;
+    border-right: none;
+    min-width: 8rem;
+  }
+}

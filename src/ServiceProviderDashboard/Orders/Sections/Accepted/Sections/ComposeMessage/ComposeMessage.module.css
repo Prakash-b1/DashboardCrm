@@ -1,0 +1,74 @@
+.popup_message_bar {
+  width: 100%;
+  display: flex;
+  padding: 20px 30px;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 0.5px solid #ccc;
+  background: #e8effa;
+}
+
+.popup_message_bar_label {
+  color: #808080;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.popup_message_bar_value {
+  display: flex;
+  padding: 2px 6px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  background: #fff;
+  color: #0d0d0d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer_btn {
+  display: flex;
+  align-items: center;
+}
+
+.message_popup_icon {
+  display: flex;
+  gap: 10px;
+}
+
+.file_input {
+  display: none;
+}
+
+.file_upload_label .icon {
+  display: flex;
+  cursor: pointer;
+}
+
+.compose_popup_buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 16px;
+}
+
+@media (max-width:550px){
+  
+}
+
+@media(max-width:400px) {
+  .footer_btn {
+    display: block;
+  }
+  .compose_popup_buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .message_popup_icon {
+    margin-bottom: 1.5rem;
+  }
+}

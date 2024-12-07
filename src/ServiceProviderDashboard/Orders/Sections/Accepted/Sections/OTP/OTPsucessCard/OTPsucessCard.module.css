@@ -1,0 +1,59 @@
+.VerifiedOTP_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #04A349;
+    padding: 20px 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.VerifiedOTP_header img {
+    cursor: pointer;
+}
+
+.VerifiedOTP_header span {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.18px;
+}
+
+.VerifiedOtp_details {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    text-align: left;
+    gap: 12px;
+    border-radius: 8px;
+    background: rgba(4, 163, 73, 0.10);
+}
+
+.VerifiedOtp_detail_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+    text-align: left;
+}
+
+.VerifiedOtp_label {
+    color: var(--Colour-Palette-Support-Colours-Success-alert-700, #04A349);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22.4px;
+    letter-spacing: 0.18px;
+}
+
+.VerifiedOTP_value {
+    color: #272727;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    letter-spacing: 0.16px;
+}

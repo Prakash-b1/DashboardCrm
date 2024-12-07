@@ -1,0 +1,143 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  padding-left: 0px;
+  min-width: 790px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.left_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.left_container_data {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: rgba(39, 39, 39, 1);
+  border: 0.5px solid rgba(204, 204, 204, 1);
+}
+
+.left_container_data_search1 {
+  width: 100%;
+}
+
+.left_container_data_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 5px;
+  padding: 10px;
+  width: fit-content;
+}
+
+.left_container_data:last-child {
+  color: rgba(228, 50, 50, 1);
+}
+
+.left_container_data_first {
+  border-radius: 8px 0px 0px 8px;
+  padding: 4px 0px 3px 0px;
+  position: relative;
+  width: 26%;
+  cursor: pointer;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: rgba(39, 39, 39, 1);
+  border: 0.5px solid rgba(204, 204, 204, 1);
+}
+
+.left_container_data_middle {
+  border-radius: 0px;
+  border-left: none;
+}
+
+.left_container_data_last {
+  border-radius: 0px 8px 8px 0px;
+  border-left: none;
+}
+
+.icon {
+  /* transform: rotate(180deg); */
+  transition: all 200ms ease;
+}
+
+.icon_rotate {
+  transform: rotate(180deg);
+  transition: all 200ms ease;
+}
+
+.resetIcon {
+  transform: rotate(-360deg);
+  transition: all 500ms ease;
+}
+
+.calendar {
+  padding: 10px;
+  height: 2.2rem;
+  position: relative;
+}
+
+.calendarInput {
+  padding: 0px 0px;
+  /* height: 2.2rem; */
+  border: transparent;
+  font-size: 14px;
+  outline: none;
+  position: relative;
+}
+
+.calendarInput:focus {
+  outline: none;
+  border: transparent;
+}
+
+.pickerStyle {
+  /* width: fit-content;
+  height: fit-content;
+  position: absolute !important; */
+  /* top:52px !important;
+  left: -76px !important; */
+}
+
+
+
+@media (max-width: 1127px) {
+  .container {
+    padding: 12px 30px;
+    flex-wrap: wrap;
+  }
+
+  .right_container {
+    margin-left: 6.5rem;
+    margin-top: 0.5rem;
+  }
+}
+
+
+@media(max-width:768px) {
+  .container {
+    display:none;
+  }
+  .left_container {
+    display: none;
+  }
+}

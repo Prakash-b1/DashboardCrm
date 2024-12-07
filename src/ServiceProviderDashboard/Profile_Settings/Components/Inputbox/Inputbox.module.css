@@ -1,0 +1,23 @@
+.profileInput{
+    border-radius: 8px;
+    padding: 12px 20px;
+    background-color: #F2F2F2;
+    border: none;
+    outline: none;
+    /* height: 2rem; */
+    color: #0D0D0D;
+    text-align: left;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.profileInput::placeholder{
+    color: #808080;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.09px;
+    display: flex;
+    align-items: center;
+}

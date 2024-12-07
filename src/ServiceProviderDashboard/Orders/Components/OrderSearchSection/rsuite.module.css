@@ -1,0 +1,18 @@
+/* ------------------datepicker internal css changes of rsuite datepicker--------------------------------------- */
+
+.rs-input-group:not(.rs-input-group-disabled):hover,
+.rs-input-group:not(.rs-input-group-disabled).rs-input-group-focus,
+.rs-input-group:focus-within {
+  border-color: transparent;
+  border-color: transparent;
+  outline: none;
+  outline: none;
+}
+
+.rs-input-group:not(.rs-input-group-disabled).rs-input-group-focus,
+.rs-input-group:focus-within {
+  outline: none;
+  outline: none;
+  border-color: transparent;
+  border-color: transparent;
+}

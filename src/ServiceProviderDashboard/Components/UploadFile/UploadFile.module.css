@@ -1,0 +1,90 @@
+.file_input {
+  display: none;
+}
+
+.value {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  gap: 8px;
+  padding: 0px 24px 0px 0px;
+  /* padding-left: 0px; */
+  /* position: relative; */
+}
+
+.submit_file_upload_label {
+  position: relative;
+  display: flex;
+  min-width: 14rem;
+  width: 100%;
+  /* margin-left: 3rem; */
+  padding: 16px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  color: #165dc9;
+  background: rgba(22, 93, 201, 0.1);
+  cursor: pointer;
+}
+
+.file_upload_label .icon {
+  display: flex;
+  padding: 0px;
+}
+
+.file_upload_label {
+  display: flex;
+  width: 100%;
+  min-width: 226px;
+  height: 50px;
+  /* margin-left: 1rem; */
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  color: #165dc9;
+  background: rgba(22, 93, 201, 0.1);
+  cursor: pointer;
+}
+
+.cancel_img {
+  position: absolute;
+  right: -5px;
+  top: -6px;
+  padding: 0px;
+  border-radius: 100%;
+  background-color: transparent;
+}
+
+.cancel_img:hover {
+  background-color: transparent;
+}
+.pdf_values{
+  display: flex;
+  flex-direction: column;
+}
+.pdf_values span {
+  padding: 0px;
+}
+
+.first_value {
+  color: #0d0d0d;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.last_value {
+  color: #808080;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}

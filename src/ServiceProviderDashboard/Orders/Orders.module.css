@@ -1,0 +1,17 @@
+.dashboard_section {
+  margin-top: 22vh;
+}
+
+
+
+@media(max-width:768px) {
+  .dashboard_section {
+    margin-top: 14vh;
+  }
+}
+
+@media(max-width:550px) {
+  .dashboard_section {
+    margin-top: 11vh;
+  }
+}

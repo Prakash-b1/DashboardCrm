@@ -1,0 +1,9 @@
+.settings_page{
+    top:24vh;
+    display: flex; 
+    position: relative;
+}
+
+.allPages{
+    width: 100%;
+}

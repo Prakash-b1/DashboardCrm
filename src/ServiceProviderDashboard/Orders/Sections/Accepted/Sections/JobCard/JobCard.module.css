@@ -1,0 +1,489 @@
+.main_body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  /* margin: 2rem; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: fit-content;
+}
+
+.modelBox {
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding: 30px;
+  padding-bottom: 10px;
+  gap: 45px;
+  /* background-color: #ffffff; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: fit-content;
+  overflow-y: scroll;
+}
+
+.modelBox::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+.modelBox::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0,0.2); 
+  border-radius: 6px; 
+}
+
+.modelBox::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+.modelBox_body {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 0.5px solid rgba(204, 204, 204, 1);
+  width: 100%;
+  height: fit-content;
+}
+
+.details {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.7% 0px;
+  width: 100%;
+  border-bottom: 0.5px solid rgba(204, 204, 204, 1);
+  gap: 20px;
+  position: relative;
+}
+
+.modelBox_body .details:last-child {
+  border-bottom: none;
+}
+
+.details span {
+  display: flex;
+  /* padding: 0px 24px; */
+}
+
+.details .label {
+  width: 50%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: rgba(128, 128, 128, 1);
+  padding: 0px 24px;
+}
+
+.details .value {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  gap: 8px;
+  padding: 0px 24px 0px 0px;
+  /* padding-left: 0px; */
+  /* position: relative; */
+}
+
+.textarea::placeholder {
+  color: #808080;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+.textarea {
+  resize: none;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  min-width: 10rem;
+  padding: 2.5% 3.5%;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  color: black;
+  background: #f2f2f2;
+  cursor: pointer;
+  border: none;
+}
+
+.textarea:focus {
+  outline: 1px solid #ebe4e4;
+  border: 1px solid #2c8eff;
+}
+
+.inputdata {
+  width: 260px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid #2c8eff;
+  background: #f2f2f2;
+  padding: 10px;
+}
+
+.left_JobCardData {
+  padding: 0px 24px;
+  font-size: 16px;
+  min-width: 7.5rem;
+}
+
+.JobCardData {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  padding: 3.7% 0px;
+  border-bottom: 0.5px solid rgba(204, 204, 204, 1);
+  gap: 20px;
+}
+
+.JobCardData span {
+  display: flex;
+  align-items: center;
+  padding: 0px 24px 0px 10px;
+  color: rgba(128, 128, 128, 1);
+  position: relative;
+}
+
+.right_JobCardData {
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+}
+
+.right_JobCardData_first .Data {
+  color: #0d0d0d;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+.right_JobCardData_first {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.right_input_data {
+  display: flex;
+  flex-direction: column;
+}
+
+.right_input_data input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  /* height: 100%; */
+  height: auto;
+  border-radius: 12px;
+  padding: 12px 22px;
+  /* border: 4px solid #ebf4ff; */
+  border: none;
+  margin-right: 1rem;
+  background: #f2f2f2;
+  color: #0d0d0d;
+  outline: none;
+}
+
+.JobCardData span.rupeeIcon {
+  color: #0d0d0d;
+  position: absolute;
+  left: 4%;
+}
+
+.right_input_data input::placeholder {
+  color: #808080;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+
+.right_input_data input:focus {
+  outline: 1px solid #ebe4e4;
+  border: 1px solid #2c8eff;
+}
+
+.modelBox_footer {
+  /* position: absolute; */
+  /* right: 30px;
+  bottom: 10px; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 10px 30px;
+}
+
+.upload_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 24px;
+}
+
+.requiredMsg {
+  color: red;
+  text-align: left;
+  font-size: 13px;
+  width: 100%;
+}
+
+.requiredMsg1 {
+  color: red;
+  text-align: left;
+  font-size: 13px;
+  margin-left: 5%;
+  margin-top: 0.2rem;
+}
+@media(max-width:1300px){
+  .textarea{
+    margin-left: -0.9rem;
+  }
+}
+@media(max-width:992px) {
+  .main_body {
+    max-height: 90vh;
+  }
+  .modelBox {
+    padding: 20px 15px;
+    /* padding-bottom: 60px; */
+    gap: 15px;
+  }
+
+  .modelBox_body {
+    /* width: 20rem; */
+    height: fit-content;
+  }
+
+  .JobCardData span {
+    padding: 0px 8px;
+  }
+
+  .details .label {
+    width: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: rgba(128, 128, 128, 1);
+  }
+
+  .details .value {
+    width: 50%;
+    margin-left: -0.5rem;
+  }
+
+  .details span {
+    display: flex;
+    padding: 0px 8px;
+  }
+
+  .inputdata {
+    min-width: 12rem;
+    height: 40px;
+    padding: 6px;
+  }
+
+  .details,
+  .JobCardData {
+    padding: 10px 0px;
+    gap: 10px;
+  }
+
+  .right_JobCardData {
+    gap: 15px;
+  }
+
+  .right_input_data input {
+    width: 100px;
+    /* height: 25px; */
+    padding: 10px 15px;
+  }
+
+  .upload_container {
+    padding: 0px 8px;
+  }
+
+  .file_upload_label {
+    height: 45px;
+    min-width: 10rem;
+    margin-left: 0rem;
+    /* min-width: 12rem;
+    margin-left: 0.5rem; */
+    padding: 10px 8px;
+    gap: 6px;
+  }
+
+  .modelBox_footer {
+    right: 18px;
+  }
+}
+
+@media(max-width:700px) {
+  .modelBox {
+    flex-direction: column;
+  }
+
+  .modelBox_body {
+    /* margin: -25px 0px 30px 0px; */
+    margin: 0px;
+  }
+
+  .JobCardData span {
+    padding: 0px;
+  }
+  .textarea{
+    margin-left: 0rem;
+  }
+  /* .modelBox_footer {
+      position: absolute;
+      width: 90%;
+      right: 18px;
+  } */
+  .right_JobCardData {
+    margin-right: 2.8rem;
+  }
+
+  .right_input_data input {
+    margin-right: 0rem;
+  }
+
+  .file_upload_label {
+    min-width: 10rem;
+  }
+}
+
+@media(max-width:550px) {
+  .right_JobCardData {
+    margin-right: 1rem;
+  }
+  .left_JobCardData {
+    font-size: 14px;
+  }
+
+  .details .label {
+    font-size: 14px;
+  }
+
+  .details .value {
+    font-size: 14px;
+  }
+
+  .JobCardData span {
+    font-size: 14px;
+  }
+
+  .right_JobCardData_first .Data {
+    font-size: 14px;
+  }
+}
+
+@media(max-width:400px) {
+  /* .modelBox_body {
+    width: 16rem;
+  } */
+
+  .inputdata {
+    min-width: 9rem;
+  }
+  .right_JobCardData {
+    margin-right: 2.2rem;
+  }
+  .right_input_data input {
+    width: 70px;
+    padding: 10px 15px;
+    margin-right: 0.5rem;
+  }
+
+  /* .file_upload_label {
+    min-width: 8rem;
+  } */
+
+  /* .modelBox_footer {
+      width: 17rem;
+      left: 8px;
+      gap: 8px;
+  } */
+}
+
+/* @media (max-width: 992px) {
+  .modelBox {
+    padding: 30px 15px;
+    padding-bottom: 60px;
+    gap: 15px;
+  }
+
+  .modelBox_body {
+    width: 20rem;
+    height: fit-content;
+  }
+
+  .JobCardData span {
+    padding: 0px 8px;
+  }
+
+  .details .label {
+    width: auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: rgba(128, 128, 128, 1);
+  }
+
+  .details .value {
+    width: 50%;
+    margin-left: -0.5rem;
+  }
+
+  .details span {
+    display: flex;
+    padding: 0px 8px;
+  }
+
+  .inputdata {
+    min-width: 12rem;
+    height: 40px;
+    padding: 6px;
+  }
+
+  .details,
+  .JobCardData {
+    padding: 20px 0px;
+    gap: 10px;
+  }
+
+  .right_JobCardData {
+    gap: 15px;
+  }
+
+  .right_input_data input {
+    width: 100px;
+    height: 25px;
+    padding: 10px 15px;
+  }
+
+  .upload_container {
+    padding: 0px 8px;
+  }
+
+  .file_upload_label {
+    height: 45px;
+    min-width: 12rem;
+    margin-left: 0.5rem;
+    padding: 10px 8px;
+    gap: 6px;
+  }
+} */

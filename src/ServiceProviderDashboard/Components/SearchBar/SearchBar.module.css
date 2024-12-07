@@ -1,0 +1,39 @@
+.input_parent {
+  position: relative;
+  height: 46px;
+  max-width: 332px;
+  background-color: rgba(254, 254, 254, 1);
+  border-radius: 8px;
+  padding: 0px 18px;
+  border: 0.5px solid rgba(204, 204, 204, 1);
+}
+
+.input {
+  height: 100%;
+  width: 80%;
+  outline: none;
+  font-weight: 400;
+  font-size: 0.9rem;
+  border: none;
+  padding-left: 10px;
+  background: transparent;
+  line-height: 19.09px;
+}
+
+.input::placeholder {
+  text-align: left;
+  color: rgba(179, 179, 179, 1);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .input_parent {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(254, 254, 254, 1);
+    border-radius: 8px;
+    padding: 0px 18px;
+    border: 0.5px solid rgba(204, 204, 204, 1);
+  }
+}
