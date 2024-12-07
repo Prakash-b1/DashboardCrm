@@ -15,7 +15,7 @@
   text-align: left;
   gap: 12px;
   border-radius: 8px;
-  border-left: 6px solid #165dc9;
+  border-left: 6px solid #4e4e4e;
   background: #e8effa;
 }
 
@@ -115,7 +115,7 @@ input::placeholder {
 }
 
 .resend a {
-  color: #165dc9;
+  color: #4e4e4e;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;

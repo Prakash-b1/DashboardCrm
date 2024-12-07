@@ -18,11 +18,12 @@
   right: 0;
   left: 0;
   top: 0;
-  background: #165dc9;
+  background: #4e4e4e;
   height: 65px;
   padding: 10px 16px;
   gap: 16px;
   z-index: 99;
+  padding: 0 100px;
 }
 
 .filter_icon_mobile {
@@ -41,4 +42,10 @@
   .right_section {
     margin-left: 0;
   }
+  .mobileNavbar {
+
+    padding: 10px 16px;
+
+  }
+  
 }

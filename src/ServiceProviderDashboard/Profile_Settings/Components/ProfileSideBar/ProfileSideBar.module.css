@@ -36,7 +36,7 @@
 
 .active_option {
   background: #165dc933;
-  color: #165dc9;
+  color: #4e4e4e;
 }
 
 .hide {
@@ -57,7 +57,7 @@
 }
 
 .active_sub_option {
-  color: #165dc9;
+  color: #4e4e4e;
   text-decoration: none;
 }
 

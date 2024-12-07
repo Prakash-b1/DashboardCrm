@@ -39,9 +39,9 @@
   align-items: center;
   gap: 10px;
   border-radius: 47px;
-  border: 1px solid #165dc9;
+  border: 1px solid #4e4e4e;
   background: #fff;
-  color: #165dc9;
+  color: #4e4e4e;
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 500;
@@ -49,7 +49,7 @@
 }
 
 .order_type_name_selected {
-  background: #165dc9;
+  background: #4e4e4e;
   color: #fff;
 }
 

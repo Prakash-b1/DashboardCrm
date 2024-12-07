@@ -64,7 +64,7 @@
   font-size: 3rem;
   position: absolute;
   right: 10px;
-  color: #165DC9;
+  color: #4e4e4e;
   transform: rotate(90deg);
 }
 
@@ -101,7 +101,7 @@
   content: "›";
   font-size: 3rem;
   transition: 0.5s;
-  color: #165DC9;
+  color: #4e4e4e;
   transform: rotate(90deg);
 }
 
